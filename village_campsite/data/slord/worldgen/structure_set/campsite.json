@@ -1,0 +1,14 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 50,
+        "separation": 10,
+        "salt": 1003047638
+    },
+    "structures": [
+        {
+            "structure": "slord:campsite",
+            "weight": 1
+        }
+    ]
+}

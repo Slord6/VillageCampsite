@@ -1,0 +1,57 @@
+{
+    "name": "slord:campsite/roads",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/decorations/lantern_post"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/decorations/bones"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/decorations/hay_pile"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/decorations/felled_birch"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/decorations/felled_oak"
+            }
+        }
+    ]
+}

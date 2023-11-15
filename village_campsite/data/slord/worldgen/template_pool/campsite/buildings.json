@@ -1,0 +1,57 @@
+{
+    "name": "slord:campsite/roads",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/buildings/animal_pen"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/buildings/overgrown_sleeping_tent"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/buildings/overgrown_storage_tent"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/buildings/overgrown_tent"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/buildings/sunk_campfire"
+            }
+        }
+    ]
+}

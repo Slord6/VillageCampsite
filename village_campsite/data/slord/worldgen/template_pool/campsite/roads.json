@@ -1,0 +1,48 @@
+{
+    "name": "slord:campsite/roads",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/roads/straight_path"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/roads/t_path"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/roads/turn_path"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty",
+                "location": "slord:campsite/roads/cross_path"
+            }
+        }
+    ]
+}
